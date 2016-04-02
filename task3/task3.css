@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;/*规定将border和padding的宽度都算入width中*/
+}
+html, body, div{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+	margin: 20px;
+	min-width: calc(200px + 200px + 120px + 80px);/*在宽度小于这个值以后，就会出现横向滚动条*/
+	background: #eee !important;
+	overflow: auto;
+}
+.contianer,.aside, .logos, .content{
+	padding:20px;
+	background: white;
+	border:1px solid #999;
+}
+.aside{
+	float: left;
+	margin: 20px;
+	width: 200px;
+}
+.aside h3,.content h3{
+	margin-top: 0;
+}
+.content{
+	margin: 20px 160px 0 240px;
+}
+.logo{
+	margin-bottom: 15px;
+	margin-right: 15px;
+	height: 80px;
+	width: 80px;
+}
+.logos{
+	float: right;
+	height: auto;
+	margin: 20px;
+	width: 120px;
+}
+.logo.last{
+	margin-bottom: 0;
+}
+.aside.logo{
+	float: left;
+}
