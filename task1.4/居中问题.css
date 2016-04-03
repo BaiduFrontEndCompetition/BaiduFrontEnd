@@ -1,0 +1,38 @@
+
+* {
+  box-sizing: border-box;/*规定将border和padding的宽度都算入width中*/
+}
+
+html, body, div{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+	position: absolute;
+	width: 400px;
+	height: 200px;
+	background-color: #ccc;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -200px;
+	overflow: hidden;/*将超出父元素的部分隐藏*/
+}
+.box1,.box2{
+	width: 100px;
+	height: 100px;
+	background-color: #fc0;
+	border-radius: 50%;
+	position: absolute;/*只有当其至少有一个父元素设置为局对定位或相对定位，该元素才会相对该父元素定位，否则将按照整个网页定位*/
+}
+
+.box1{
+	left: -50px;
+	top:-50px;
+}
+
+.box2{
+	bottom: -50px;
+	right: -50px;
+}
