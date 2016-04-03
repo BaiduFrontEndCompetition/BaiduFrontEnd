@@ -83,16 +83,17 @@ tfoot{
 	vertical-align: top;
 }
 .input_message {
-    width: 30%;
+    width: 31%;
     text-align: right;
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10px;
     margin-top: 10px;
     vertical-align: top;
     margin-bottom: 0px;
 }
 .bot{
 	vertical-align: top;
+	margin-top: 10px;
 }
 
 .input_messages {
