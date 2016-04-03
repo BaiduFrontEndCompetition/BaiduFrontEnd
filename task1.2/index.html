@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Mission 1.5</title>
+</head>
+<body>
+<!-- 参考红鲤鱼与绿绿鲤鱼与驴队 -->
+<header class="header">
+    <span>
+        <a href="#">
+        <p style="font-size: 30px">TITLE</p>
+        </a>
+    </span>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">导航1</a>
+                <a href="#">导航2</a>
+                <a href="#">导航3</a>
+                <a href="#">导航4</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<aside>
+    <h2 class="aside" id="article_4">这里以后是个侧栏,这是标题</h2>
+    <h3>侧栏注册窗口的标题</h3>
+    <form action="" method="get">
+        <label for="emall"><input type="text" name="email"></label>
+        <p>注意格式</p>
+        <label for="">请输入密码<input type="password"></label>
+        <label for="">再次输入密码<input type="password"></label>
+        <p class="demand">6-16位</p>
+        <span class="input_message">性别</span>
+        <label for="male">男</label><input type="radio" name="gender" value="male" id="man">
+        <label for="female">女</label><input type="radio" name="gender" value="female" id="woman">
+        <br>
+        <span class="input_message">爱好</span>
+        <label for="1"><input type="checkbox" name="interest" value="1">1</label>
+        <label for="2"><input type="checkbox" name="interest" value="2">2</label>
+        <label for="3"><input type="checkbox" name="interest" value="3">3</label>
+        <br>
+        <label for="" class="input_message">个人描述<textarea name="discreption" id="dis" cols="30" rows="10">个人描述</textarea></label>
+        <button type="submit" class="submit">提交</button>
+    </form>
+</aside>
+
+    <article>
+        <h2 id="article_1">文章一级标题</h2>
+        <h3 class="color_gray">文章二季标题</h3>
+        <p><span>文章作者</span><span>文章发表时间</span></p>
+        <!--参考js高手之路的写法,自己肯定就直接写了 by刘奇-->
+        <p class="text_indent">段落1</p>
+        <p class="text_indent">段落2</p>
+        <p class="text_indent">段落3,<a href="http://baidu.com" target="_par"><strong>开车,<br>仍旧是段落三</strong></a></p>
+        <img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png" alt="和谐">
+        <p class="text_indent"><a href="http://baidu.com" target="_blank">在新的窗口开车</a></p>
+    </article>
+
+    <article>
+        <h1 id="article_2">另一篇文章的以及标题</h1>
+        <h2 class="color_gray">文章二级标题</h2>
+        <p><span>文章作者</span><span>文章发表时间</span></p>
+        <p class="text_indent">内容</p>
+        <ul class="no_list">
+            <li>列表1</li>
+            <li>列表2</li>
+            <li>列表3</li>
+        </ul>
+        <h3>图片</h3>
+        <figure>
+            <figcaption>喵</figcaption>
+            <img src="http://img4.duitang.com/uploads/blog/201309/15/20130915181150_xd5TG.thumb.200_0.gif" alt="喵?">
+            <figcaption>喵</figcaption>
+            <img src="http://img4.duitang.com/uploads/blog/201309/15/20130915181150_xd5TG.thumb.200_0.gif" alt="喵?">
+            <figcaption>喵</figcaption>
+            <img src="http://img4.duitang.com/uploads/blog/201309/15/20130915181150_xd5TG.">          <figcaption>喵</figcaption>
+            <img src="http://img4.duitang.com/uploads/blog/201309/15/20130915181150_xd5TG.thumb.200_0.gif" alt="喵?">
+             <figcaption>喵</figcaption>
+            <img src="http://img4.duitang.com/uploads/blog/201309/15/20130915181150_xd5TG.thumb.200_0.gif" alt="喵?">
+             <figcaption>喵</figcaption>
+            <img src="http://img4.duitang.com/uploads/blog/201309/15/20130915181150_xd5TG.thumb.200_0.gif" alt="喵?">
+             <figcaption>喵</figcaption>
+            <img src="http://img4.duitang.com/uploads/blog/201309/15/20130915181150_xd5TG.thumb.200_0.gif" alt="喵?">
+             <figcaption>喵</figcaption>
+            <img src="http://img4.duitang.com/uploads/blog/201309/15/20130915181150_xd5TG.thumb.200_0.gif" alt="喵?">
+             <figcaption>喵</figcaption>
+            <img src="http://img4.duitang.com/uploads/blog/201309/15/20130915181150_xd5TG.thumb.200_0.gif" alt="喵?">
+             <figcaption>喵</figcaption>
+            <img src="http://img4.duitang.com/uploads/blog/201309/15/20130915181150_xd5TG.thumb.200_0.gif" alt="喵?">
+         </figure>
+    </article>
+    <article>
+        <h2 id="article_3">最后一篇文章一级标题</h2>
+        <h3 class="color_gray">文章二级标题</h3>
+        <p><span>文章作者</span><span>文章发表时间</span></p>
+        <p class="text_indent">内容</p>
+        <ol>
+            <li>列表1</li>
+            <li>列表2</li>
+            <li>列表3</li>
+        </ol>
+        <table border="1" class="tab">
+            <thead>
+                <tr>
+                    <th>表头1</th><th>表头2</th><th>表头3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>2</td><td><a href="#">op</a></td></tr>
+                <tr><td>1</td><td>2</td><td><a href="#">op</a></td></tr>
+                <tr><td>1</td><td>2</td><td><a href="#">op</a></td></tr>
+            </tbody>
+        </table>
+    </article>
+
+</body>
+</html>
